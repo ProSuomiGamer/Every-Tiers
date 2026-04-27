@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: white;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background: #111827;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.tabs button {
+  background: #1f2937;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.tabs button.active {
+  background: gold;
+  color: black;
+}
+
+.leaderboard {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  background: #111827;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.rank {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.name {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.points {
+  color: #9ca3af;
+}
+
+.tiers span {
+  background: #1f2937;
+  padding: 5px 8px;
+  margin-left: 5px;
+  border-radius: 6px;
+  font-size: 12px;
+}
